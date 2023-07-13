@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T11:01:22.623Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ybh3xE_LGEUvVyopcSUV" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T10:50:56.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s_CjwgfJG-Ci35C_2bAP" version="21.6.2" type="github">
   <diagram name="Page-1" id="82Kx7SFXTsUjgZJkPYat">
     <mxGraphModel dx="1194" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z9ph_xznk2FThED17DT3-7" value="&lt;h4&gt;DefaultEntryLogger&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-7" value="&lt;h4&gt;DefaultEntryLogger&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="1280" width="540" height="210" as="geometry" />
         </mxCell>
         <mxCell id="iu4JL6hjBt67AG2MAdG2-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iu4JL6hjBt67AG2MAdG2-36" target="iu4JL6hjBt67AG2MAdG2-43" edge="1">
@@ -240,22 +240,22 @@
         <mxCell id="iu4JL6hjBt67AG2MAdG2-47" value="BookKeeperAdmin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="885" y="540" width="122" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-1" value="&lt;h4&gt;EntryLoggerAllocator:&lt;/h4&gt;allocate log file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-1" value="&lt;h4&gt;EntryLoggerAllocator:&lt;/h4&gt;allocate log file" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="1320" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="z9ph_xznk2FThED17DT3-2" target="z9ph_xznk2FThED17DT3-1">
+        <mxCell id="z9ph_xznk2FThED17DT3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="z9ph_xznk2FThED17DT3-2" target="z9ph_xznk2FThED17DT3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-2" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;entryLogFilePreallocationEnabled: true&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;writeBufferSizeBytes: 65536&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;readBufferSizeBytes: 512&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;flushEntrylogBytes: 0&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-2" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;entryLogFilePreallocationEnabled: true&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;writeBufferSizeBytes: 65536&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;readBufferSizeBytes: 512&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;flushEntrylogBytes: 0&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="1400" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-8" value="&lt;h4 style=&quot;text-align: left;&quot;&gt;RecentEntryLogsStatus:&lt;/h4&gt;track the least unflushed,&lt;br&gt;&amp;amp; status of an entry log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-8" value="&lt;h4 style=&quot;text-align: left;&quot;&gt;RecentEntryLogsStatus:&lt;/h4&gt;track the least unflushed,&lt;br&gt;&amp;amp; status of an entry log" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="1280" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-9" value="&lt;h4&gt;BufferedLogChannel&lt;/h4&gt;&lt;div&gt;（for compaction)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-9" value="&lt;h4&gt;BufferedLogChannel&lt;/h4&gt;&lt;div&gt;（for compaction)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1320" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z9ph_xznk2FThED17DT3-11" target="z9ph_xznk2FThED17DT3-10">
+        <mxCell id="z9ph_xznk2FThED17DT3-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="z9ph_xznk2FThED17DT3-11" target="z9ph_xznk2FThED17DT3-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="1500" as="sourcePoint" />
             <Array as="points">
@@ -265,34 +265,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-10" value="&lt;h4&gt;EntryLogManagerForSingleEntryLog&lt;/h4&gt;&lt;div&gt;process entries, flush and rotate log&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-10" value="&lt;h4&gt;EntryLogManagerForSingleEntryLog&lt;/h4&gt;&lt;div&gt;process entries request, flush and rotate log&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="1410" width="230" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-11" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;logSizeLimit: (0, 1GB)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-11" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;logSizeLimit: (0, 1GB)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="1420" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="z9ph_xznk2FThED17DT3-20" target="z9ph_xznk2FThED17DT3-19">
+        <mxCell id="z9ph_xznk2FThED17DT3-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="z9ph_xznk2FThED17DT3-20" target="z9ph_xznk2FThED17DT3-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="1550" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="900" y="1530" />
-              <mxPoint x="900" y="1500" />
-              <mxPoint x="885" y="1500" />
-              <mxPoint x="885" y="1510" />
+              <mxPoint x="870" y="1530" />
+              <mxPoint x="870" y="1510" />
               <mxPoint x="830" y="1510" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-19" value="&lt;h4&gt;EntryLogManagerForEntryLogPerLedger&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-19" value="&lt;h4&gt;EntryLogManagerForEntryLogPerLedger&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="1410" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-20" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;logSizeLimit: (0, 1GB)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;entrylogMapAccessExpiryTimeInSeconds: 300&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;maximumNumberOfActiveEntryLogs: 500&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;entryLogPerLedgerCounterLimitsMultFactor: 10&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-20" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;logSizeLimit: (0, 1GB)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;entrylogMapAccessExpiryTimeInSeconds: 300&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;maximumNumberOfActiveEntryLogs: 500&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;entryLogPerLedgerCounterLimitsMultFactor: 10&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="1530" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-21" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;nettyMaxFrameSizeBytes: 5MB&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z9ph_xznk2FThED17DT3-21" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;nettyMaxFrameSizeBytes: 5MB&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="1330" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.411;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="z9ph_xznk2FThED17DT3-21" target="z9ph_xznk2FThED17DT3-7">
+        <mxCell id="z9ph_xznk2FThED17DT3-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.411;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="z9ph_xznk2FThED17DT3-21" target="z9ph_xznk2FThED17DT3-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1264" y="1220" as="sourcePoint" />
             <mxPoint x="1217" y="1180" as="targetPoint" />
@@ -303,8 +301,62 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="z9ph_xznk2FThED17DT3-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="z9ph_xznk2FThED17DT3-7" target="z9ph_xznk2FThED17DT3-7">
+        <mxCell id="z9ph_xznk2FThED17DT3-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="z9ph_xznk2FThED17DT3-7" target="z9ph_xznk2FThED17DT3-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-1" value="&lt;h4&gt;LedgerCacheImpl&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1820" width="540" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-2" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;pageSize: 8KB&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="571" y="1790" width="159" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cNtdtaAnZoBOAQtfdkxb-2" target="cNtdtaAnZoBOAQtfdkxb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="1650" as="sourcePoint" />
+            <mxPoint x="760" y="1720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-4" value="&lt;h4&gt;IndexPersistenceMgr&lt;/h4&gt;&lt;div&gt;managing the persistence state for the index&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1910" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-5" value="&lt;h4&gt;IndexInMemPageMgr&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1840" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-6" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;openFileLimit: 20000&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;numAddWorkerThreads: 1&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;numReadWorkerThreads: 8&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;fileInfoFormatVersionToWrite: 1&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;fileInfoCacheInitialCapacity: 5000&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;fileInfoMaxIdleTime: 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2000" width="262.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cNtdtaAnZoBOAQtfdkxb-6" target="cNtdtaAnZoBOAQtfdkxb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="2010" as="sourcePoint" />
+            <mxPoint x="410" y="2000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="339" y="2000" />
+              <mxPoint x="339" y="1990" />
+              <mxPoint x="390" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-9" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;pageLimit: -1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2020" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cNtdtaAnZoBOAQtfdkxb-9" target="cNtdtaAnZoBOAQtfdkxb-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761" y="2186.01" as="sourcePoint" />
+            <mxPoint x="770.06" y="2090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="655" y="2010" />
+              <mxPoint x="630" y="2010" />
+              <mxPoint x="630" y="1990" />
+              <mxPoint x="610" y="1990" />
+              <mxPoint x="610" y="1905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cNtdtaAnZoBOAQtfdkxb-11" value="&lt;h4&gt;InMemPageCollection&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1930" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
