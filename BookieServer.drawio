@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T06:17:58.063Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mOAsMFmkwugj57Yjrg5b" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T11:17:18.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="J5ZrW-lY2LXojZEyKmvu" version="21.6.5" type="github">
   <diagram name="Page-1" id="82Kx7SFXTsUjgZJkPYat">
     <mxGraphModel dx="2044" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-12" value="&lt;h1&gt;&lt;br&gt;SortedLedgerStorage&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1330" width="1050" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-10" value="&lt;h2&gt;EntryMemTable&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1330" width="350" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="SP-9jFPUUWnKPtcvfwCZ-3" value="&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h2&gt;InterleavedLedgerStorage&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="1540" width="1050" height="470" as="geometry" />
         </mxCell>
@@ -181,10 +187,10 @@
         <mxCell id="iu4JL6hjBt67AG2MAdG2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="iu4JL6hjBt67AG2MAdG2-2" target="iu4JL6hjBt67AG2MAdG2-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iu4JL6hjBt67AG2MAdG2-2" value="LedgerStorage&lt;br&gt;(SortedLedgerStorage&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iu4JL6hjBt67AG2MAdG2-2" value="LedgerStorage&lt;br&gt;(SortedLedgerStorage&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="315" y="660" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iu4JL6hjBt67AG2MAdG2-7" value="InterleavedLedgerStorage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iu4JL6hjBt67AG2MAdG2-7" value="InterleavedLedgerStorage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="390" y="740" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iu4JL6hjBt67AG2MAdG2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="iu4JL6hjBt67AG2MAdG2-7" target="iu4JL6hjBt67AG2MAdG2-2" edge="1">
@@ -376,6 +382,30 @@
         </mxCell>
         <mxCell id="SP-9jFPUUWnKPtcvfwCZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z9ph_xznk2FThED17DT3-11" target="z9ph_xznk2FThED17DT3-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-6" value="&lt;h4&gt;EntrySkipList&lt;/h4&gt;&lt;div&gt;(kvmap, snapshot)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1450" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-7" value="&lt;h4&gt;SkipListArena&lt;/h4&gt;&lt;div&gt;SkipList allocation buffer to reduce memory fragment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1127.5" y="1440" width="182.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-8" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;skipListArenaChunkSize: 4 MB&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;skipListArenaMaxAllocSize: 128 KB&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1480" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-9" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;skipListSizeLimit: 64 MB&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1340" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SP-9jFPUUWnKPtcvfwCZ-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SP-9jFPUUWnKPtcvfwCZ-8" target="SP-9jFPUUWnKPtcvfwCZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1457" as="sourcePoint" />
+            <mxPoint x="1400" y="1473" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="1480" />
+              <mxPoint x="1350" y="1470" />
+              <mxPoint x="1330" y="1470" />
+              <mxPoint x="1330" y="1500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
