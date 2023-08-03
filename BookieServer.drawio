@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T11:01:21.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="AimcLH5_kO4cgP2pqm8g" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T11:12:34.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mbmaRX_gSAc1Btt9Eixn" version="21.6.6" type="github">
   <diagram name="Page-1" id="82Kx7SFXTsUjgZJkPYat">
     <mxGraphModel dx="2604" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
         <mxCell id="CwB2cmDh5bo-2nJxtTwJ-1" value="StatsProvider (NullStatsProvider)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="130" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-2" value="MetadataBookieDriver&lt;br&gt;&amp;nbsp;(ZKMetadataBookieDriver&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-2" value="MetadataBookieDriver&lt;br&gt;&amp;nbsp;(ZKMetadataBookieDriver&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="135" y="220" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ft-VFnhlPFLqep18iLet-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-4" target="CwB2cmDh5bo-2nJxtTwJ-2" edge="1">
@@ -72,20 +72,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ft-VFnhlPFLqep18iLet-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-4" target="CwB2cmDh5bo-2nJxtTwJ-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ft-VFnhlPFLqep18iLet-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-4" target="CwB2cmDh5bo-2nJxtTwJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CwB2cmDh5bo-2nJxtTwJ-4" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="310" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ft-VFnhlPFLqep18iLet-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-5" target="CwB2cmDh5bo-2nJxtTwJ-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-5" value="ZKLayourManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="330" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iu4JL6hjBt67AG2MAdG2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-7" target="iu4JL6hjBt67AG2MAdG2-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -104,22 +95,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-7" value="RegistrationManager&lt;br&gt;&amp;nbsp;(ZKRegistrationManager&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-7" value="RegistrationManager&lt;br&gt;&amp;nbsp;(ZKRegistrationManager&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="60" y="410" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-8" value="/ledgers&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/LAYOUT&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/cookies&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/available&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;readonly&lt;br&gt;&amp;nbsp; &amp;nbsp; /disableHealthCheck" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="355" y="10" width="200" height="220" as="geometry" />
+        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-8" value="/ledgers&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/LAYOUT (2\n:LongHierarchicalLedgerManagerFactory:1)&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/cookies&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;/available&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;readonly&lt;br&gt;&amp;nbsp; &amp;nbsp; /disableHealthCheck&lt;br&gt;&amp;nbsp; &amp;nbsp; /INSTANCEID" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="355" y="10" width="345" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ft-VFnhlPFLqep18iLet-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-9" target="CwB2cmDh5bo-2nJxtTwJ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-9" value="ZKLayourManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-9" value="ZKLayourManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="30" y="320" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ft-VFnhlPFLqep18iLet-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" parent="1" source="CwB2cmDh5bo-2nJxtTwJ-10" target="ft-VFnhlPFLqep18iLet-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-10" value="LedgerManagerFactory&lt;br&gt;&amp;nbsp;(LongHierarchicalLedgerManagerFactory&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CwB2cmDh5bo-2nJxtTwJ-10" value="LedgerManagerFactory&lt;br&gt;&amp;nbsp;(LongHierarchicalLedgerManagerFactory&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="250" y="410" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iu4JL6hjBt67AG2MAdG2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ft-VFnhlPFLqep18iLet-8" target="iu4JL6hjBt67AG2MAdG2-2" edge="1">
@@ -516,13 +507,22 @@
           <mxGeometry x="1390" y="870" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IuIAINy-iGvJOmIpRtRl-10" value="&lt;h1&gt;UncleanShutdownDetectionImpl&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="950" width="400" height="60" as="geometry" />
+          <mxGeometry x="1730" y="950" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KPHQlgvmwLig2NfFR361-1" value="&lt;h1&gt;ZKMetadataBookieDriver&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1105" y="130" width="345" height="260" as="geometry" />
+        <mxCell id="KPHQlgvmwLig2NfFR361-1" value="&lt;h1&gt;ZKMetadataBookieDriver&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;create LedgerManagerFactory&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;create&amp;nbsp;&lt;/span&gt;RegistrationManager&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;enable/disable health check&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="130" width="325" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="KPHQlgvmwLig2NfFR361-2" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;metadataServiceUri:&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;zkRetryBackoffStartMs: 10000&lt;/li&gt;&lt;li&gt;zkRetryBackoffMaxRetries:&amp;nbsp;Integer.MAX_VALUE&lt;/li&gt;&lt;li&gt;zkEnableSecurity: false&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;zkRequestRateLimit: 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="250" width="320" height="80" as="geometry" />
+        <mxCell id="KPHQlgvmwLig2NfFR361-2" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;metadataServiceUri:&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;zkRetryBackoffStartMs: 10000&lt;/li&gt;&lt;li&gt;zkRetryBackoffMaxRetries:&amp;nbsp;Integer.MAX_VALUE&lt;/li&gt;&lt;li&gt;zkEnableSecurity: false&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;zkRequestRateLimit: 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="310" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNLi5rdbHhJam66m0M8S-1" value="&lt;h4&gt;ZKLayoutManager&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="270" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wNLi5rdbHhJam66m0M8S-2" value="&lt;h1&gt;ZKRegistrationManager&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;bookie registration&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;cookie registration&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;format zk&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="460" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wNLi5rdbHhJam66m0M8S-3" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;zkTimeout:&amp;nbsp;&lt;/span&gt;10000&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="540" width="165" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
