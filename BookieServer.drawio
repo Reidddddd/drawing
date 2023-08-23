@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T11:05:31.313Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R8cqarAL-3rjfSCEliOS" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T12:10:49.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="U-TSNeNsJOgiQ4I50jQw" version="21.6.8" type="github">
   <diagram name="Page-1" id="82Kx7SFXTsUjgZJkPYat">
-    <mxGraphModel dx="3021" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -960,6 +960,9 @@
         </mxCell>
         <mxCell id="duP4JWg5uPilp2QIJ3Ua-33" value="&lt;font color=&quot;#ffffff&quot;&gt;Page ... x&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="2470" y="2880" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KKBd7hsLWeGHun3P3lo-1" value="&lt;h1&gt;AuditorElector&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Can build a cluster of AutoRecoveryService&lt;/p&gt;&lt;p&gt;Only one can become the main Auditor&lt;/p&gt;&lt;p&gt;Others have to wait to become the main Auditor in sequence&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="80" width="327.5" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
