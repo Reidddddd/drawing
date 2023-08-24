@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T12:10:49.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="U-TSNeNsJOgiQ4I50jQw" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T12:10:24.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kGQi7f9PNgjOzJa1wmYc" version="21.6.9" type="github">
   <diagram name="Page-1" id="82Kx7SFXTsUjgZJkPYat">
-    <mxGraphModel dx="2840" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2687" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -961,8 +961,14 @@
         <mxCell id="duP4JWg5uPilp2QIJ3Ua-33" value="&lt;font color=&quot;#ffffff&quot;&gt;Page ... x&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="2470" y="2880" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3KKBd7hsLWeGHun3P3lo-1" value="&lt;h1&gt;AuditorElector&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Can build a cluster of AutoRecoveryService&lt;/p&gt;&lt;p&gt;Only one can become the main Auditor&lt;/p&gt;&lt;p&gt;Others have to wait to become the main Auditor in sequence&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="80" width="327.5" height="180" as="geometry" />
+        <mxCell id="3KKBd7hsLWeGHun3P3lo-1" value="&lt;h1&gt;AuditorElector&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Can build a cluster of AutoRecoveryService&lt;/p&gt;&lt;p&gt;Only one can become the main Auditor&lt;/p&gt;&lt;p&gt;Others have to wait to become the main Auditor in sequence&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2028.75" y="30" width="327.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Hvj-trHv_8IYxLvX1KNM-1" value="&lt;h1&gt;Bookie Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read all available bookies&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get bookie ID &amp;gt; ledgers IDs map&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Subtract above, to get lost bookies&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Then mark all ledgers under that bookie as suspected underreplica&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="60" width="327.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Hvj-trHv_8IYxLvX1KNM-2" value="&lt;h1&gt;Ledger Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For each ledger, splitted into fragments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For each fragments, verify whether it is readable&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read each fragments, all or portion is configurable.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If a fragment of ledger is not readable, will mark its bookie&#39;s ledgers are&amp;nbsp;&lt;/span&gt;suspected&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2305" y="205" width="327.5" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
