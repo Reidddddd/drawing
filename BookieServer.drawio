@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T12:10:24.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kGQi7f9PNgjOzJa1wmYc" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T07:45:55.569Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3GsZCrW0JgrudurssL29" version="21.6.9" type="github">
   <diagram name="Page-1" id="82Kx7SFXTsUjgZJkPYat">
-    <mxGraphModel dx="2687" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -643,19 +643,20 @@
           <mxGeometry x="1957.5" y="422.5" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m39yVvgwhWs9IjE_bAc9-14" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;auditorMaxNumberOfConcurrentOpenLedgerOperations:&amp;nbsp;&lt;/span&gt;500&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;auditorAcquireConcurrentOpenLedgerOperationsTimeOutMSec: 120000&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;inFlightReadEntryNumInLedgerChecker: -1&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;auditorLedgerVerificationPercentage: 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="402.5" width="440" height="70" as="geometry" />
+          <mxGeometry x="2300" y="410" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="m39yVvgwhWs9IjE_bAc9-15" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;underreplicatedLedgerRecoveryGracePeriod:&amp;nbsp;&lt;/span&gt;0&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;repairedPlacementPolicyNotAdheringBookieEnabled: false&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="477.5" width="390" height="35" as="geometry" />
+          <mxGeometry x="2300" y="485" width="390" height="35" as="geometry" />
         </mxCell>
         <mxCell id="m39yVvgwhWs9IjE_bAc9-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="m39yVvgwhWs9IjE_bAc9-15" target="m39yVvgwhWs9IjE_bAc9-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2311.75" y="605" as="sourcePoint" />
             <mxPoint x="2248.75" y="625" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="2289" y="503" />
               <mxPoint x="2289" y="495" />
-              <mxPoint x="2289" y="498" />
-              <mxPoint x="2249" y="498" />
+              <mxPoint x="2280" y="495" />
+              <mxPoint x="2280" y="498" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -962,13 +963,16 @@
           <mxGeometry x="2470" y="2880" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3KKBd7hsLWeGHun3P3lo-1" value="&lt;h1&gt;AuditorElector&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Can build a cluster of AutoRecoveryService&lt;/p&gt;&lt;p&gt;Only one can become the main Auditor&lt;/p&gt;&lt;p&gt;Others have to wait to become the main Auditor in sequence&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2028.75" y="30" width="327.5" height="180" as="geometry" />
+          <mxGeometry x="1476.25" y="55" width="327.5" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Hvj-trHv_8IYxLvX1KNM-1" value="&lt;h1&gt;Bookie Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read all available bookies&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get bookie ID &amp;gt; ledgers IDs map&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Subtract above, to get lost bookies&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Then mark all ledgers under that bookie as suspected underreplica&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="60" width="327.5" height="150" as="geometry" />
+        <mxCell id="Hvj-trHv_8IYxLvX1KNM-1" value="&lt;h1&gt;Bookie Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read all available bookies&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get bookie ID &amp;gt; ledgers IDs map&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Subtract above, to get lost bookies&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Then mark all ledgers under that bookie as suspected underreplica&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1747.5" y="55" width="327.5" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Hvj-trHv_8IYxLvX1KNM-2" value="&lt;h1&gt;Ledger Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For each ledger, splitted into fragments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For each fragments, verify whether it is readable&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read each fragments, all or portion is configurable.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If a fragment of ledger is not readable, will mark its bookie&#39;s ledgers are&amp;nbsp;&lt;/span&gt;suspected&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2305" y="205" width="327.5" height="135" as="geometry" />
+        <mxCell id="Hvj-trHv_8IYxLvX1KNM-2" value="&lt;h1&gt;Ledger Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For each ledger, splitted into fragments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For each fragments, verify whether it is readable&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read each fragments, all or portion is configurable.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If a fragment of ledger is not readable, will mark its bookie&#39;s ledgers are&amp;nbsp;&lt;/span&gt;suspected&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="55" width="327.5" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="5PL6Jvq7W2ng4-CnSJ_w-1" value="&lt;h1&gt;ReplicationWorker&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;One ledger one time&lt;/li&gt;&lt;li&gt;Split a ledger into fragments&lt;/li&gt;&lt;li&gt;For each fragments, check each its bookies&lt;/li&gt;&lt;ol&gt;&lt;li&gt;collect bad bookies&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Collect all bad fragments (including bad bookies)&lt;/li&gt;&lt;li&gt;For each fragment, replace bad bookies with new bookies&lt;/li&gt;&lt;li&gt;Open the problematic ledger, split a fragment into sub fragments&lt;/li&gt;&lt;li&gt;For entries in each fragments&lt;/li&gt;&lt;li&gt;Add those entries into the new bookies (read from normal source and write out)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="167.5" width="327.5" height="235" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
