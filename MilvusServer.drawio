@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T11:21:25.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="oroFNlhYxqNq9geI9hLd" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T10:51:13.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="NLtqdyiqeOEve4D7__zX" version="24.2.3" type="github">
   <diagram name="Page-1" id="iMUTDpLFSvKAjpd02B9K">
-    <mxGraphModel dx="1194" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="530" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Query Coord Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="530" width="140" height="60" as="geometry" />
+          <mxGeometry x="450" y="530" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Meta Table&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="670" width="120" height="60" as="geometry" />
@@ -68,10 +68,10 @@
           <mxGeometry x="380" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;State Code&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Initializing&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Healthy&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Abnormal&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Standby&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Stopping&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="510" width="110" height="120" as="geometry" />
+          <mxGeometry x="1400" y="420" width="110" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1H8OlDMclBCg87n2fOxV-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="1H8OlDMclBCg87n2fOxV-26" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Storage&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1090" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-27" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Factory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="960" width="120" height="60" as="geometry" />
@@ -83,22 +83,22 @@
           <mxGeometry x="790" y="230" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ID Allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="629" width="110" height="30" as="geometry" />
+          <mxGeometry x="1390" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pA7A3yzOYTiXgBPnv5iG-4" target="S3bbYTHunRU67dtETxX3-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoordClient&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="900" width="140" height="30" as="geometry" />
+          <mxGeometry x="970" y="878" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.037;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="pA7A3yzOYTiXgBPnv5iG-2" target="pA7A3yzOYTiXgBPnv5iG-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pA7A3yzOYTiXgBPnv5iG-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MetaTable&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Responsible for DDL operations&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Store some mapping information in memory&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Store meta of DB, Collections, Partitions, Credentials information in MetaKV&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MetaKV could be ETCD or TiKV&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The TSO Alloc is for default DB init only&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="810" y="410" width="260" height="180" as="geometry" />
+        <mxCell id="pA7A3yzOYTiXgBPnv5iG-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MetaTable&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Responsible for DDL operations&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Store some mapping information in memory&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Store meta of DB, Collections, Partitions, Credentials information in MetaKV&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MetaKV could be ETCD (default) or TiKV&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The TSO Alloc is for default DB init only&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="810" y="410" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Meta KV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="720" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pA7A3yzOYTiXgBPnv5iG-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TSO Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="856" y="848" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TSO Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1150" y="395" width="100" height="30" as="geometry" />
@@ -106,23 +106,47 @@
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ID Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1150" y="365" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brf_WzkIbhwDBPpYxKt3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1235" y="984.75" as="sourcePoint" />
-            <mxPoint x="1205" y="985" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="brf_WzkIbhwDBPpYxKt3-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ETCD Client&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="704.75" width="110" height="30.5" as="geometry" />
         </mxCell>
-        <mxCell id="brf_WzkIbhwDBPpYxKt3-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ETCD Client&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="764.75" width="110" height="30.5" as="geometry" />
-        </mxCell>
-        <mxCell id="brf_WzkIbhwDBPpYxKt3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TSO Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="brf_WzkIbhwDBPpYxKt3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TSO Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="964" y="629" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="brf_WzkIbhwDBPpYxKt3-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;TSO Allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="735" width="110" height="30" as="geometry" />
+        <mxCell id="brf_WzkIbhwDBPpYxKt3-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;TSO Allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="625" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brf_WzkIbhwDBPpYxKt3-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;QueryCoordClient&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="940" width="140" height="30" as="geometry" />
+        <mxCell id="brf_WzkIbhwDBPpYxKt3-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;QueryCoordClient&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="930" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;b&gt;gRPC Client&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="840" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-4" value="Session&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="930" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ETCD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="960" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;NodeID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="903" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Role&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="875.5" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="brf_WzkIbhwDBPpYxKt3-12" target="S3bbYTHunRU67dtETxX3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="903" as="sourcePoint" />
+            <mxPoint x="1170" y="888" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Data/Query Coord Client&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Both are gRPC underlying&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Role is DataCoordRole or QueryCoordRole&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;ETCD is a singleton&lt;/li&gt;&lt;li&gt;Session is owned by each client&lt;/li&gt;&lt;li&gt;Session is a struct to store service&#39;s session, including ServerID, ServerName, Address.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="800" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;MessageQueue&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1140" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3bbYTHunRU67dtETxX3-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ObjectStore&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1140" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
