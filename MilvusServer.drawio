@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T10:51:13.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="NLtqdyiqeOEve4D7__zX" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T11:22:50.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="THvhC40UZ88MCfJ5zpVx" version="24.2.5" type="github">
   <diagram name="Page-1" id="iMUTDpLFSvKAjpd02B9K">
-    <mxGraphModel dx="1493" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-15" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MetaTable&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="590" width="140" height="160" as="geometry" />
+          <mxGeometry x="1150" y="470" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-13" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Catalog&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="660" width="120" height="90" as="geometry" />
+          <mxGeometry x="1160" y="540" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;SuffixSnapshot&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="940" y="690" width="90" height="60" as="geometry" />
+          <mxGeometry x="1170" y="570" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;RootCoord&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Collections Related&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Create&lt;/li&gt;&lt;li&gt;Drop&lt;/li&gt;&lt;li&gt;Exist&lt;/li&gt;&lt;li&gt;Describe&lt;/li&gt;&lt;li&gt;Show&lt;/li&gt;&lt;li&gt;Alter&lt;/li&gt;&lt;li&gt;Rename&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Alias Related&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Create&lt;/li&gt;&lt;li&gt;Drop&lt;/li&gt;&lt;li&gt;Alter&lt;/li&gt;&lt;li&gt;Describe&lt;/li&gt;&lt;li&gt;List&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Partition Related&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Create&lt;/li&gt;&lt;li&gt;Drop&lt;/li&gt;&lt;li&gt;Exist&lt;/li&gt;&lt;li&gt;Show&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Credential&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Create&lt;/li&gt;&lt;li&gt;Update&lt;/li&gt;&lt;li&gt;Delete&lt;/li&gt;&lt;li&gt;List Users&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Role&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Create&lt;/li&gt;&lt;li&gt;Drop&lt;/li&gt;&lt;li&gt;Operate User Role&lt;/li&gt;&lt;li&gt;Select Role / User&lt;/li&gt;&lt;li&gt;Operate Privilege&lt;/li&gt;&lt;li&gt;Select Grant&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Database&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Create&lt;/li&gt;&lt;li&gt;Drop&lt;/li&gt;&lt;li&gt;List&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Others&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Component States&lt;/li&gt;&lt;li&gt;Timetick Channel&lt;/li&gt;&lt;li&gt;Statistics Channel&lt;/li&gt;&lt;li&gt;Show Segments&lt;/li&gt;&lt;li&gt;Allocate Timestamp&lt;/li&gt;&lt;li&gt;Allocate ID&lt;/li&gt;&lt;li&gt;Update Channel Timetick&lt;/li&gt;&lt;li&gt;Invalidate Connection Cache&lt;/li&gt;&lt;li&gt;Show Configurations&lt;/li&gt;&lt;li&gt;Get Metrics&lt;/li&gt;&lt;li&gt;List Policy&lt;/li&gt;&lt;li&gt;Check Health&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="270" height="750" as="geometry" />
@@ -71,21 +71,21 @@
           <mxGeometry x="1400" y="420" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-26" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Storage&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="1090" width="270" height="80" as="geometry" />
+          <mxGeometry x="1010" y="1120" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1H8OlDMclBCg87n2fOxV-27" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Factory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-1" value="&amp;nbsp;task (cap: 10240)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="360" width="250" height="70" as="geometry" />
+          <mxGeometry x="1040" y="331" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Scheduler&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;At most 10240 tasks&lt;/li&gt;&lt;li&gt;FIFO (no particular strategy)&lt;/li&gt;&lt;li&gt;There is a time ticker (200ms defaut)&lt;/li&gt;&lt;li&gt;Will assign TSO and ID to each task&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="790" y="230" width="250" height="120" as="geometry" />
+          <mxGeometry x="790" y="201" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ID Allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1390" y="580" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pA7A3yzOYTiXgBPnv5iG-4" target="S3bbYTHunRU67dtETxX3-2">
+        <mxCell id="S3bbYTHunRU67dtETxX3-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pA7A3yzOYTiXgBPnv5iG-4" target="S3bbYTHunRU67dtETxX3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoordClient&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -98,19 +98,19 @@
           <mxGeometry x="810" y="410" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Meta KV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="720" width="80" height="30" as="geometry" />
+          <mxGeometry x="1200" y="600" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TSO Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="395" width="100" height="30" as="geometry" />
+          <mxGeometry x="1150" y="366" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pA7A3yzOYTiXgBPnv5iG-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ID Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="365" width="100" height="30" as="geometry" />
+          <mxGeometry x="1150" y="336" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="brf_WzkIbhwDBPpYxKt3-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ETCD Client&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="704.75" width="110" height="30.5" as="geometry" />
+          <mxGeometry x="1340" y="684.75" width="110" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="brf_WzkIbhwDBPpYxKt3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TSO Allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="964" y="629" width="80" height="25" as="geometry" />
+          <mxGeometry x="1194" y="509" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="brf_WzkIbhwDBPpYxKt3-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;TSO Allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1390" y="625" width="110" height="30" as="geometry" />
@@ -118,35 +118,53 @@
         <mxCell id="brf_WzkIbhwDBPpYxKt3-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;QueryCoordClient&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="930" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;b&gt;gRPC Client&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S3bbYTHunRU67dtETxX3-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;b&gt;gRPC Client&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="840" width="130" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-4" value="Session&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S3bbYTHunRU67dtETxX3-4" value="Session&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1185" y="930" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ETCD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S3bbYTHunRU67dtETxX3-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ETCD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1195" y="960" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;NodeID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S3bbYTHunRU67dtETxX3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;NodeID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1185" y="903" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Role&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S3bbYTHunRU67dtETxX3-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Role&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1185" y="875.5" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="brf_WzkIbhwDBPpYxKt3-12" target="S3bbYTHunRU67dtETxX3-2">
+        <mxCell id="S3bbYTHunRU67dtETxX3-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="brf_WzkIbhwDBPpYxKt3-12" target="S3bbYTHunRU67dtETxX3-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1120" y="903" as="sourcePoint" />
             <mxPoint x="1170" y="888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Data/Query Coord Client&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Both are gRPC underlying&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Role is DataCoordRole or QueryCoordRole&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;ETCD is a singleton&lt;/li&gt;&lt;li&gt;Session is owned by each client&lt;/li&gt;&lt;li&gt;Session is a struct to store service&#39;s session, including ServerID, ServerName, Address.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="800" width="300" height="160" as="geometry" />
+        <mxCell id="S3bbYTHunRU67dtETxX3-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Data/Query Coord Client&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Both are gRPC underlying&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Role is DataCoordRole or QueryCoordRole&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;ETCD is a singleton&lt;/li&gt;&lt;li&gt;Session is owned by each client&lt;/li&gt;&lt;li&gt;Session is a struct to store service&#39;s session, including ServerID, ServerName, Address.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="800" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;MessageQueue&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1140" width="135" height="30" as="geometry" />
+        <mxCell id="S3bbYTHunRU67dtETxX3-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;MessageQueue&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="1170" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S3bbYTHunRU67dtETxX3-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ObjectStore&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="825" y="1140" width="135" height="30" as="geometry" />
+        <mxCell id="S3bbYTHunRU67dtETxX3-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ObjectStore&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1145" y="1170" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAOSZmzWxWmOJZL5pZO_-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" parent="1" source="pA7A3yzOYTiXgBPnv5iG-6" target="pA7A3yzOYTiXgBPnv5iG-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="300" as="sourcePoint" />
+            <mxPoint x="1168" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAOSZmzWxWmOJZL5pZO_-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shape=link;edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" parent="1" source="S3bbYTHunRU67dtETxX3-2" target="S3bbYTHunRU67dtETxX3-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="760" as="sourcePoint" />
+            <mxPoint x="1380" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAOSZmzWxWmOJZL5pZO_-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Session&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="699.5" width="110" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XAOSZmzWxWmOJZL5pZO_-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Session&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Active / Standby swtich&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Liveness check&lt;/li&gt;&lt;li&gt;Service&#39;s session, including ServerID, ServerName, Address&lt;/li&gt;&lt;li&gt;Some service states, e.g. connected, registered&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="660" width="246" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
