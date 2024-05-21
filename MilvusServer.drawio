@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T11:31:51.493Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Clc0hB8ALlSXjJlu495W" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T11:41:26.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PVNVzi0jtakZ0Y4-4Byb" version="24.4.0" type="github">
   <diagram name="Page-1" id="iMUTDpLFSvKAjpd02B9K">
     <mxGraphModel dx="1306" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Session Manager&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Add session&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Delete session&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Get sessions and its IDs&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Flush segments / channels&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Compaction&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Get compaction plans results&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Sync segments&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Notify channel operation&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Check channel operation progress&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Pre import&lt;/li&gt;&lt;li style=&quot;&quot;&gt;ImportV2&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Query pre import&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Query import&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Drop import&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Check health&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="549" y="1980" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1990" width="320" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="WJ2p51wfmog2oyL80Z8o-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="1279.85" width="190" height="100.15" as="geometry" />
         </mxCell>
@@ -122,15 +128,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XAOSZmzWxWmOJZL5pZO_-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Session&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="769.5" width="110" height="30.5" as="geometry" />
+          <mxGeometry x="769.5" y="799.5" width="110" height="30.5" as="geometry" />
         </mxCell>
-        <mxCell id="XAOSZmzWxWmOJZL5pZO_-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Session&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Active / Standby swtich&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Liveness check&lt;/li&gt;&lt;li&gt;Service&#39;s session, including ServerID, ServerName, Address&lt;/li&gt;&lt;li&gt;Some service states, e.g. connected, registered&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="660" width="246" height="150" as="geometry" />
+        <mxCell id="XAOSZmzWxWmOJZL5pZO_-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Session (util)&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Active / Standby swtich&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Liveness check&lt;/li&gt;&lt;li&gt;Service&#39;s session, including ServerID, ServerName, Address&lt;/li&gt;&lt;li&gt;Some service states, e.g. connected, registered&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="909.5" y="690" width="246" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4HTonezWQRZoFRtsZxHR-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;edgeStyle=orthogonalEdgeStyle;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="XAOSZmzWxWmOJZL5pZO_-3" target="XAOSZmzWxWmOJZL5pZO_-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="899.5" y="634.75" as="sourcePoint" />
-            <mxPoint x="890" y="690" as="targetPoint" />
+            <mxPoint x="839" y="664.75" as="sourcePoint" />
+            <mxPoint x="829.5" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4HTonezWQRZoFRtsZxHR-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Time Tick&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time synchronization system&amp;nbsp;&lt;/li&gt;&lt;li&gt;Time tick message&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Its timestamp is the smallese timestamp of all the largest timestamp from all proxy&lt;/span&gt;&lt;/li&gt;&lt;li&gt;When reading a message from MsgStream, all messages with smaller timestamp values must be consumed.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -454,44 +460,74 @@
         <mxCell id="BdXWjpxFNhZkbUTwlvHz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="BdXWjpxFNhZkbUTwlvHz-37" target="BdXWjpxFNhZkbUTwlvHz-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;allocator&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="1910" width="110" height="30.5" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Allocator&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Call root coord to get&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Timestamp&lt;/li&gt;&lt;li&gt;ID&lt;/li&gt;&lt;li&gt;N&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Allocator&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Call root coord to get&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Timestamp&lt;/li&gt;&lt;li&gt;ID&lt;/li&gt;&lt;li&gt;N&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="362.75" y="1770" width="157.75" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;edgeStyle=orthogonalEdgeStyle;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Scxb7y1IfJKcUuCGw04q-1" target="Scxb7y1IfJKcUuCGw04q-2">
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;edgeStyle=orthogonalEdgeStyle;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Scxb7y1IfJKcUuCGw04q-1" target="Scxb7y1IfJKcUuCGw04q-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="232.25" y="1832" as="sourcePoint" />
             <mxPoint x="317.25" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Segment Manager&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Allocate segment&lt;/li&gt;&lt;li&gt;Drop segment&lt;/li&gt;&lt;li&gt;Seal segments&lt;/li&gt;&lt;li&gt;Drop segments of channel&lt;/li&gt;&lt;li&gt;Allocate import segment&lt;/li&gt;&lt;li&gt;Flush import segments&lt;/li&gt;&lt;li&gt;Get flushable segments&lt;/li&gt;&lt;li&gt;Expire allocations&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="276.25" y="2020" width="227.25" height="175" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Segment Manager&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Allocate segment&lt;/li&gt;&lt;li&gt;Drop segment&lt;/li&gt;&lt;li&gt;Seal segments&lt;/li&gt;&lt;li&gt;Drop segments of channel&lt;/li&gt;&lt;li&gt;Allocate import segment&lt;/li&gt;&lt;li&gt;Flush import segments&lt;/li&gt;&lt;li&gt;Get flushable segments&lt;/li&gt;&lt;li&gt;Expire allocations&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="191.38" y="2055" width="227.25" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-5" value="Segment IDs" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2090" width="100" height="30" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-5" value="Segment IDs" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="2070" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="2060" width="80" height="20.5" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;allocator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="243" y="2040" width="80" height="20.5" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;meta&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="2030" width="80" height="20.5" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;meta&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="329" y="2010" width="80" height="20.5" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-8" value="Segment Policy" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2130" width="120" height="30" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-8" value="Segment Policy" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="2150" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-9" value="Channel Seal Policy" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2170" width="150" height="30" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-9" value="Channel Seal Policy" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="2110" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-10" value="Flush Policy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="715" y="2060" width="80" height="20.5" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-10" value="Flush Policy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="415" y="2010" width="80" height="20.5" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-11" value="Estimate num(Rows) Policy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="2050.5" width="160" height="20.5" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-11" value="Estimate num(Rows) Policy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="2040" width="160" height="20.5" as="geometry" />
         </mxCell>
-        <mxCell id="Scxb7y1IfJKcUuCGw04q-12" value="Allocation Policy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="2080.5" width="100" height="20.5" as="geometry" />
+        <mxCell id="Scxb7y1IfJKcUuCGw04q-12" value="Allocation Policy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="223" y="2010" width="100" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="734.01" y="2170" as="sourcePoint" />
+            <mxPoint x="774.0100000000002" y="2170.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-3" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Node ID&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.13" y="2157.5" width="44.88" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DcZDiT2Waz1m8cw29fCS-4" target="DcZDiT2Waz1m8cw29fCS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-4" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Session&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="774.5100000000002" y="2157.5" width="44.62" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;DataNode Client&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;gRPC client&lt;/li&gt;&lt;li&gt;util.Session&lt;/li&gt;&lt;li&gt;Address&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Server ID&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="885" y="2192.5" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DcZDiT2Waz1m8cw29fCS-11" target="DcZDiT2Waz1m8cw29fCS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DcZDiT2Waz1m8cw29fCS-11" target="DcZDiT2Waz1m8cw29fCS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Session&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Node Info&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DataNode Client&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="731.8199999999999" y="2210" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="DcZDiT2Waz1m8cw29fCS-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Node Info&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Node ID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Address&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="759.5" y="2300" width="95" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
