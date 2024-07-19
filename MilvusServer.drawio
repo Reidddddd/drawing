@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T07:55:04.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vcPXJSGFtX5zHkLYpyMi" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T11:02:17.103Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="n_gAa4d6XitJyaUK_AQC" version="24.7.1" type="github">
   <diagram name="Page-1" id="iMUTDpLFSvKAjpd02B9K">
     <mxGraphModel dx="1306" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3577,6 +3577,14 @@
         </mxCell>
         <mxCell id="A0mFasS6dXni0qRtCHHY-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;RootCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="6554.28" y="1902.08" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o5Bc5jk9eV5D6fDgWI30-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;curved=1;" edge="1" parent="1" source="A0mFasS6dXni0qRtCHHY-4" target="gU4ZvqyV0sZQ8af2e7Gl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o5Bc5jk9eV5D6fDgWI30-15" value="6.5 marked channel added" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o5Bc5jk9eV5D6fDgWI30-14">
+          <mxGeometry x="0.2578" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A0mFasS6dXni0qRtCHHY-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7690" y="2714.8800000000006" width="120" height="80" as="geometry" />
