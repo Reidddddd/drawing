@@ -3593,9 +3593,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o5Bc5jk9eV5D6fDgWI30-15" value="7. marked channel added (update ETCD)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o5Bc5jk9eV5D6fDgWI30-14" vertex="1" connectable="0">
+        <mxCell id="o5Bc5jk9eV5D6fDgWI30-15" value="7. marked channel added and vchannel checkpoint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o5Bc5jk9eV5D6fDgWI30-14" vertex="1" connectable="0">
           <mxGeometry x="0.2578" y="1" relative="1" as="geometry">
-            <mxPoint x="31" y="14" as="offset" />
+            <mxPoint x="91" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3hm8z_Rd5Nq7un8HPPxd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" parent="1" source="A0mFasS6dXni0qRtCHHY-4" target="gU4ZvqyV0sZQ8af2e7Gl-2" edge="1">
@@ -3709,7 +3709,7 @@
         <mxCell id="o5Bc5jk9eV5D6fDgWI30-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="1" source="gU4ZvqyV0sZQ8af2e7Gl-5" target="gU4ZvqyV0sZQ8af2e7Gl-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o5Bc5jk9eV5D6fDgWI30-8" value="5. add collection info to ETCD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o5Bc5jk9eV5D6fDgWI30-7" vertex="1" connectable="0">
+        <mxCell id="o5Bc5jk9eV5D6fDgWI30-8" value="5. add collection info to ETCD and its memory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o5Bc5jk9eV5D6fDgWI30-7" vertex="1" connectable="0">
           <mxGeometry x="-0.0749" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
