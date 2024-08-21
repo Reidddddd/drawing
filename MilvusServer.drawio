@@ -419,7 +419,7 @@
           <mxGeometry x="1315.5" y="653" width="69" height="25" as="geometry" />
         </mxCell>
         <mxCell id="BdXWjpxFNhZkbUTwlvHz-1" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Meta&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="422" y="1210" width="188" height="480" as="geometry" />
+          <mxGeometry x="422" y="1210" width="198" height="480" as="geometry" />
         </mxCell>
         <mxCell id="BdXWjpxFNhZkbUTwlvHz-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -437,13 +437,16 @@
           <mxGeometry x="520.5" y="1249.53" width="79.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="BdXWjpxFNhZkbUTwlvHz-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Collection Info&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ID&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Schema&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Partitions&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;StartPositions&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Properties&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;CreatedAt&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;DatabaseName&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;DatabaseID&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;VChannelNames&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="690" y="1177" width="130" height="170" as="geometry" />
+          <mxGeometry x="687.14" y="1070" width="130" height="170" as="geometry" />
         </mxCell>
         <mxCell id="BdXWjpxFNhZkbUTwlvHz-26" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Index Meta&lt;/i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="1500" width="147.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="BdXWjpxFNhZkbUTwlvHz-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Catalog&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="528" y="1500" width="80" height="60.5" as="geometry" />
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="BdXWjpxFNhZkbUTwlvHz-9" target="BdXWjpxFNhZkbUTwlvHz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdXWjpxFNhZkbUTwlvHz-9" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;segment Info Indexes&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="663.01" y="1283.97" width="210.5" height="60.5" as="geometry" />
         </mxCell>
         <mxCell id="BdXWjpxFNhZkbUTwlvHz-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Meta KV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="528" y="1540" width="80" height="20.5" as="geometry" />
@@ -3817,57 +3820,163 @@
         <mxCell id="xp3OSyQK9KFGHSmsBSfo-13" value="msgChannel&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;subNamePrefix&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;dataNodeSubNamePrefix:&amp;nbsp;&lt;b&gt;dataNode&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(used in consumer subscription&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;align=left;" parent="1" vertex="1">
           <mxGeometry x="2030.08" y="3066.6200000000003" width="460.42" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="uT_h7DmrlIbCXAB9Hvpy-2" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Insert Task&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Enqueue&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;1.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;2.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;3.&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pre execute&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;validate collection name&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;check max insert size&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;4.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;set timestamps&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;check dynamic filed data&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;check primary field data,&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;set rowIDs as primary data if autoID == true&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;fill field ID and type&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;partition mode related check&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;execute&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;create producer stream based on p channels&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;based on primary keys to do hashing and generate hashvalues, distributed to v channels evenly, create a map (v channel -&amp;gt; indexes) finally&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;repack insert by partitions&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;get partition IDs&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;5.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;set message IDs&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;producers produce messages&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;compute p channel index&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;based on p channel index repack dml messages&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;produce messages based on channels&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;post execute&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;nil&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="7510" y="838.19" width="540" height="541.81" as="geometry" />
+        <mxCell id="uT_h7DmrlIbCXAB9Hvpy-2" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Insert Task&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Enqueue&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;1.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;2.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;3.&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pre execute&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;validate collection name&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;check max insert size&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;4.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;set timestamps&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;check dynamic filed data&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;check primary field data,&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;set rowIDs as primary data if autoID == true&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;fill field ID and type&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;partition mode related check&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;execute&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;create producer stream based on p channels&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;based on primary keys to do hashing and generate hashvalues, grouped by v channels, create a map (v channel -&amp;gt; indexes) finally (If partition enabled,&amp;nbsp; the map is grouped by partitions)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;repack insert by partitions&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;find max timestamp&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;get partition IDs&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;5.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;(In datacoord)&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;6.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;allocate segments&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estimate row counts per segments&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;open new segments&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;8.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;9.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;update memory data structure&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;(back to proxy)&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;set message IDs&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;producers produce messages&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;compute p channel index&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;based on p channel index repack dml messages&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;produce messages based on channels&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;10.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;post execute&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;nil&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7370" y="798.69" width="540" height="841.81" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-4" value="1. get collection ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WiwzU1H9DiUJzIgtU9-l-3">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-4" value="1. get collection ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WiwzU1H9DiUJzIgtU9-l-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0472" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-6" value="2. get p &amp;amp; v channels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WiwzU1H9DiUJzIgtU9-l-5">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-6" value="2. get p &amp;amp; v channels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WiwzU1H9DiUJzIgtU9-l-5" vertex="1" connectable="0">
           <mxGeometry x="0.0856" y="-3" relative="1" as="geometry">
             <mxPoint x="-35" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-8" value="3. allocate timestamp &amp;amp; assign task id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WiwzU1H9DiUJzIgtU9-l-7">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-8" value="3. allocate timestamp &amp;amp; assign task id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WiwzU1H9DiUJzIgtU9-l-7" vertex="1" connectable="0">
           <mxGeometry x="-0.4141" y="-3" relative="1" as="geometry">
             <mxPoint x="20" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-10" value="4. allocate rows ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WiwzU1H9DiUJzIgtU9-l-9">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-10" value="4. allocate rows ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WiwzU1H9DiUJzIgtU9-l-9" vertex="1" connectable="0">
           <mxGeometry x="0.4185" relative="1" as="geometry">
             <mxPoint x="-60" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-12">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="WiwzU1H9DiUJzIgtU9-l-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-14" value="5. ask to assign segment IDs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WiwzU1H9DiUJzIgtU9-l-13">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-14" value="5. ask to assign segment IDs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WiwzU1H9DiUJzIgtU9-l-13" vertex="1" connectable="0">
           <mxGeometry x="-0.0156" y="-5" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Proxy&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;curved=1;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-1" target="HBIzDtbU0SjKXqjoRP5D-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-28" value="10. send msgs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HBIzDtbU0SjKXqjoRP5D-27">
+          <mxGeometry x="-0.0157" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Proxy&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7520" y="1560.5000000000002" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;RootCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;RootCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7960" y="1394.13" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WiwzU1H9DiUJzIgtU9-l-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="WiwzU1H9DiUJzIgtU9-l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-2" value="6. load collection info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HBIzDtbU0SjKXqjoRP5D-1">
+          <mxGeometry x="0.3057" y="67" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;curved=1;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="WiwzU1H9DiUJzIgtU9-l-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7720" y="1890" />
+              <mxPoint x="8100" y="1890" />
+              <mxPoint x="8100" y="1434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-20" value="7. allocate timestamp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HBIzDtbU0SjKXqjoRP5D-19">
+          <mxGeometry x="0.181" y="29" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="WiwzU1H9DiUJzIgtU9-l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-22" value="8. allocate segment ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HBIzDtbU0SjKXqjoRP5D-21">
+          <mxGeometry x="-0.4729" y="69" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="HBIzDtbU0SjKXqjoRP5D-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-25" value="9. write segment info into" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HBIzDtbU0SjKXqjoRP5D-24">
+          <mxGeometry x="-0.01" y="5" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiwzU1H9DiUJzIgtU9-l-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7600" y="1824.0600000000004" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HBIzDtbU0SjKXqjoRP5D-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793.1399999999999" y="1322.29" as="sourcePoint" />
+            <mxPoint x="840.6399999999999" y="1322.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-4" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Segment ID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735.6399999999999" y="1309.29" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-5" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Segment Info&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840.6399999999999" y="1312.04" width="80" height="22.25" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Collection ID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="631.75" y="1309.29" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HBIzDtbU0SjKXqjoRP5D-6" target="HBIzDtbU0SjKXqjoRP5D-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="816.1399999999999" y="1332.29" as="sourcePoint" />
+            <mxPoint x="850.6399999999999" y="1332.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HBIzDtbU0SjKXqjoRP5D-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="798.69" y="1354.04" as="sourcePoint" />
+            <mxPoint x="846.19" y="1354.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-10" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Segment ID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741.19" y="1341.04" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Segment Info&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="846.19" y="1343.79" width="80" height="22.25" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Channel name&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630.8199999999999" y="1341.04" width="76.48" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HBIzDtbU0SjKXqjoRP5D-12" target="HBIzDtbU0SjKXqjoRP5D-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="821.69" y="1364.04" as="sourcePoint" />
+            <mxPoint x="856.19" y="1364.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="HBIzDtbU0SjKXqjoRP5D-15" target="HBIzDtbU0SjKXqjoRP5D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Segment Info&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;pb.SegmentInfo&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;current rows&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[] Allocations&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;last flush time&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;is compacting&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;size&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;delete row counts&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;last Written Time&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1285" width="139.58" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Allocation&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Segment ID&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Num of Rows&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Expire Timestamp&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1166.86" y="1370" width="138.4" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.99;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="HBIzDtbU0SjKXqjoRP5D-16" target="HBIzDtbU0SjKXqjoRP5D-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-23" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ETCD&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7290" y="1757.8600000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HBIzDtbU0SjKXqjoRP5D-26" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;MessageQueue&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7260" y="1561.999999999999" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
