@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="iMUTDpLFSvKAjpd02B9K">
     <mxGraphModel dx="1306" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3918,6 +3918,14 @@
         <mxCell id="pbzFZnl1l69A7rk58jiH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="pbzFZnl1l69A7rk58jiH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LZMFw5GzPTGTcZ0ker4_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="HBIzDtbU0SjKXqjoRP5D-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZMFw5GzPTGTcZ0ker4_-4" value="update CP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZMFw5GzPTGTcZ0ker4_-3">
+          <mxGeometry x="0.1712" y="-9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WiwzU1H9DiUJzIgtU9-l-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7600" y="1824.0600000000004" width="120" height="80" as="geometry" />
         </mxCell>
@@ -4166,22 +4174,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oh_DWxMZmRsJi_cgEl3s-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ObjectStore&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oh_DWxMZmRsJi_cgEl3s-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ObjectStore&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7600" y="2205.0099999999998" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oh_DWxMZmRsJi_cgEl3s-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="pbzFZnl1l69A7rk58jiH-1" target="oh_DWxMZmRsJi_cgEl3s-1">
+        <mxCell id="oh_DWxMZmRsJi_cgEl3s-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="1" source="pbzFZnl1l69A7rk58jiH-1" target="oh_DWxMZmRsJi_cgEl3s-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7730" y="2166" as="sourcePoint" />
             <mxPoint x="7965" y="2190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oh_DWxMZmRsJi_cgEl3s-3" value="write to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oh_DWxMZmRsJi_cgEl3s-2">
+        <mxCell id="oh_DWxMZmRsJi_cgEl3s-3" value="write to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oh_DWxMZmRsJi_cgEl3s-2" vertex="1" connectable="0">
           <mxGeometry x="0.0082" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oh_DWxMZmRsJi_cgEl3s-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;On receive message&lt;/font&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;inputNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;update timetick lag &amp;amp; consumed count&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wrap &lt;i&gt;MsgPack&lt;/i&gt; into&amp;nbsp;&lt;/span&gt;&lt;i&gt;MsgStreamMsg&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;ddNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;check collection id&lt;/li&gt;&lt;li&gt;filter segment insert message&lt;/li&gt;&lt;li&gt;check msg&#39;s segment id&lt;/li&gt;&lt;ul&gt;&lt;li&gt;dropped, skip&lt;/li&gt;&lt;li&gt;sealed, skip&lt;/li&gt;&lt;li&gt;old msg (check via timestamp), skip&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;wrap into&amp;nbsp;FlowGraphMsg&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;writeNode&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;buffer data (TODOs, too complicated)&lt;/li&gt;&lt;li&gt;update stats (num rows)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;In &lt;b&gt;ttNode&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;update timestamp, uses it as checkpoint&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="7300" y="2135.48" width="400" height="314.13" as="geometry" />
+        <mxCell id="LZMFw5GzPTGTcZ0ker4_-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="oh_DWxMZmRsJi_cgEl3s-4" target="WiwzU1H9DiUJzIgtU9-l-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7340" y="2519" />
+              <mxPoint x="7340" y="2530" />
+              <mxPoint x="7200" y="2530" />
+              <mxPoint x="7200" y="1970" />
+              <mxPoint x="7618" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZMFw5GzPTGTcZ0ker4_-2" value="update CP&lt;div&gt;[v channel, position]&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZMFw5GzPTGTcZ0ker4_-1">
+          <mxGeometry x="-0.29" y="3" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oh_DWxMZmRsJi_cgEl3s-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;On receive message&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;inputNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;update consume time lag &amp;amp; consumed count&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wrap &lt;i&gt;MsgPack&lt;/i&gt; into&amp;nbsp;&lt;/span&gt;&lt;i&gt;MsgStreamMsg&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;ddNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;check collection id&lt;/li&gt;&lt;li&gt;filter segment insert message&lt;/li&gt;&lt;li&gt;check msg&#39;s segment id&lt;/li&gt;&lt;ul&gt;&lt;li&gt;dropped, skip&lt;/li&gt;&lt;li&gt;sealed, skip&lt;/li&gt;&lt;li&gt;old msg (check via timestamp), skip&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;wrap into&amp;nbsp;FlowGraphMsg&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;writeNode&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;buffer data&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;parse data into data, pk data, timestamp data, row count, group by segment ID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;write into a segment buffer&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;update checkpoint (last msg position)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;sync buffer:&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;grep segments need to sync&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;buffer is full&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;sync stale ( &amp;gt; a time gap)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;segment sealed | dropped&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;create sync task for each segment&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;update stats (num rows)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;In &lt;b&gt;ttNode&lt;/b&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;update timestamp, uses it as checkpoint&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7260" y="2049.7799999999997" width="460" height="469.61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
