@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3hm8z_Rd5Nq7un8HPPxd-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="6680" y="2745.1500000000005" width="1060" height="641.5" as="geometry" />
+          <mxGeometry x="5632.75" y="794.3200000000006" width="1060" height="641.5" as="geometry" />
         </mxCell>
         <mxCell id="sGSs8FEDYrdbl5BhejHP-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;State Channel&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Current state&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Assigned node&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="810.5" y="2841.58" width="140.5" height="75.12" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry x="1200" y="2370" width="234" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;b&gt;Execution&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;g&amp;amp;a task id for task&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;g&amp;amp;a&amp;nbsp;&amp;nbsp;timestamp for task&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;validate num(shard), num(collection)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;schema&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type check, system fields violation&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;enable dynamic field if turn on (JSON)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;assign field ID&lt;/li&gt;&lt;li style=&quot;&quot;&gt;append system fields:&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;RowID&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Timestamp&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;assigns shards&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;g&amp;amp;a&amp;nbsp;collection ID&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;partition&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;partion name: _default_$i&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;g&amp;amp;a partition IDs&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;assign channel&lt;/li&gt;&lt;ul&gt;&lt;li&gt;p channel name: pre_created_i | ${chan-cluster-prefix}-rootcoord-dml_$i&lt;/li&gt;&lt;li&gt;v channel name: ${p_channel_name}_${collection_id}_v$i&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;&quot;&gt;time tick add physical channels&lt;/li&gt;&lt;li style=&quot;&quot;&gt;generate `CreateCollection` msg pack&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b&gt;3.&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;double check `CreateCollection` concurrency&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;4.&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;5.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;6.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;7.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="6690" y="2976.1500000000005" width="420" height="439.87" as="geometry" />
+          <mxGeometry x="5642.75" y="1025.3200000000006" width="420" height="439.87" as="geometry" />
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="6360" y="1620" width="720" height="460" as="geometry" />
@@ -3590,9 +3590,9 @@
         <mxCell id="o5Bc5jk9eV5D6fDgWI30-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1.001;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;curved=1;exitPerimeter=0;" parent="1" source="A0mFasS6dXni0qRtCHHY-4" target="gU4ZvqyV0sZQ8af2e7Gl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="7270" y="3376.0200000000004" />
-              <mxPoint x="7480" y="3376.0200000000004" />
-              <mxPoint x="7480" y="3121.0200000000004" />
+              <mxPoint x="6222.75" y="1425.1900000000005" />
+              <mxPoint x="6432.75" y="1425.1900000000005" />
+              <mxPoint x="6432.75" y="1170.1900000000005" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3611,12 +3611,12 @@
         </mxCell>
         <mxCell id="3hm8z_Rd5Nq7un8HPPxd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;curved=1;" parent="1" source="A0mFasS6dXni0qRtCHHY-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="7300" y="3301.0200000000004" as="targetPoint" />
-            <mxPoint x="7359.996406871192" y="3293.384271247463" as="sourcePoint" />
+            <mxPoint x="6252.75" y="1350.1900000000005" as="targetPoint" />
+            <mxPoint x="6312.746406871192" y="1342.554271247463" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="7360" y="3289.0200000000004" />
-              <mxPoint x="7360" y="3360.0200000000004" />
-              <mxPoint x="7300" y="3360.0200000000004" />
+              <mxPoint x="6312.75" y="1338.1900000000005" />
+              <mxPoint x="6312.75" y="1409.1900000000005" />
+              <mxPoint x="6252.75" y="1409.1900000000005" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3626,7 +3626,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A0mFasS6dXni0qRtCHHY-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="7240" y="3220.900000000001" width="120" height="80" as="geometry" />
+          <mxGeometry x="6192.75" y="1270.070000000001" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A0mFasS6dXni0qRtCHHY-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Create Database Task&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pre execute&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;not empty name&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;not exceed name length&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;db name can only start with an alpha or _&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;other characters must be &lt;b&gt;_&lt;/b&gt; or &lt;b&gt;alpha&lt;/b&gt; or &lt;b&gt;number&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;execute (as pic)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;post execute&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="6399.999999999999" y="1630.11" width="308.57" height="249.89" as="geometry" />
@@ -3682,16 +3682,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Proxy&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="7250" y="2874.2100000000005" width="120" height="80" as="geometry" />
+          <mxGeometry x="6202.75" y="923.3800000000006" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ETCD&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="7320" y="3081.0300000000007" width="120" height="80" as="geometry" />
+          <mxGeometry x="6272.75" y="1130.2000000000007" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;MessageQueue&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="7530" y="3000.0199999999995" width="120" height="80" as="geometry" />
+          <mxGeometry x="6482.75" y="1049.1899999999996" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-4" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Create Collection Task&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pre execute&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;shard num check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;field num check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;vector field num check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;validate collection name&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;check duplicated field name&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;PK must be int64 or varchar and only one&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;dynamic filed can&#39;t be set&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-size: 14px;&quot;&gt;explicitly&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;one auto id field &amp;amp; PK only&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;field type doesn&#39;t support string, none, string array&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;partition key can&#39;t be PK, partition num, int64 or varchar only&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;with cluster key, only one or none&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;field check&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;name&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;sparse not dimension; dim &amp;gt;= 2; max dimension; %8 == 0 for binary type&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;for varchar or varchar[], max var 65535&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;max array length: 4096&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;execute (as pic)&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;post execute&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="7332" y="2621.440000000001" width="400" height="410.16" as="geometry" />
+          <mxGeometry x="6284.75" y="670.610000000001" width="400" height="410.16" as="geometry" />
         </mxCell>
         <mxCell id="o5Bc5jk9eV5D6fDgWI30-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gU4ZvqyV0sZQ8af2e7Gl-5" target="gU4ZvqyV0sZQ8af2e7Gl-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3734,15 +3734,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gU4ZvqyV0sZQ8af2e7Gl-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;RootCoord&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="6980" y="2996.6500000000005" width="120" height="80" as="geometry" />
+          <mxGeometry x="5932.75" y="1045.8200000000006" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o5Bc5jk9eV5D6fDgWI30-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="gU4ZvqyV0sZQ8af2e7Gl-5" target="gU4ZvqyV0sZQ8af2e7Gl-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="7000" y="3008.0200000000004" />
-              <mxPoint x="7000" y="2906.0200000000004" />
-              <mxPoint x="6920" y="2906.0200000000004" />
-              <mxPoint x="6920" y="3037.0200000000004" />
+              <mxPoint x="5952.75" y="1057.1900000000005" />
+              <mxPoint x="5952.75" y="955.1900000000005" />
+              <mxPoint x="5872.75" y="955.1900000000005" />
+              <mxPoint x="5872.75" y="1086.1900000000005" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3760,9 +3760,9 @@
         <mxCell id="3hm8z_Rd5Nq7un8HPPxd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" parent="1" source="A0mFasS6dXni0qRtCHHY-4" target="A0mFasS6dXni0qRtCHHY-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="7342" y="3206.0200000000004" />
-              <mxPoint x="7420" y="3206.0200000000004" />
-              <mxPoint x="7420" y="3261.0200000000004" />
+              <mxPoint x="6294.75" y="1255.1900000000005" />
+              <mxPoint x="6372.75" y="1255.1900000000005" />
+              <mxPoint x="6372.75" y="1310.1900000000005" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3773,12 +3773,12 @@
         </mxCell>
         <mxCell id="3hm8z_Rd5Nq7un8HPPxd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" parent="1" source="A0mFasS6dXni0qRtCHHY-4" target="gU4ZvqyV0sZQ8af2e7Gl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="7310" y="3231.0200000000004" as="sourcePoint" />
-            <mxPoint x="7390" y="3171.0200000000004" as="targetPoint" />
+            <mxPoint x="6262.75" y="1280.1900000000005" as="sourcePoint" />
+            <mxPoint x="6342.75" y="1220.1900000000005" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="7342" y="3296.0200000000004" />
-              <mxPoint x="7450" y="3296.0200000000004" />
-              <mxPoint x="7450" y="3149.0200000000004" />
+              <mxPoint x="6294.75" y="1345.1900000000005" />
+              <mxPoint x="6402.75" y="1345.1900000000005" />
+              <mxPoint x="6402.75" y="1198.1900000000005" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3918,11 +3918,24 @@
         <mxCell id="pbzFZnl1l69A7rk58jiH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="pbzFZnl1l69A7rk58jiH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LZMFw5GzPTGTcZ0ker4_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="HBIzDtbU0SjKXqjoRP5D-23">
+        <mxCell id="LZMFw5GzPTGTcZ0ker4_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="HBIzDtbU0SjKXqjoRP5D-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LZMFw5GzPTGTcZ0ker4_-4" value="update CP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZMFw5GzPTGTcZ0ker4_-3">
+        <mxCell id="LZMFw5GzPTGTcZ0ker4_-4" value="update CP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LZMFw5GzPTGTcZ0ker4_-3" vertex="1" connectable="0">
           <mxGeometry x="0.1712" y="-9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="WiwzU1H9DiUJzIgtU9-l-12" target="HBIzDtbU0SjKXqjoRP5D-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7560" y="1836" />
+              <mxPoint x="7560" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-11" value="13. write meta &amp;amp; update cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YIG0tlmACGBEbZd49X5f-10">
+          <mxGeometry x="0.3302" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -4126,6 +4139,27 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="pbzFZnl1l69A7rk58jiH-1" target="WiwzU1H9DiUJzIgtU9-l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-6" value="11. allocate ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YIG0tlmACGBEbZd49X5f-5">
+          <mxGeometry x="-0.0438" y="103" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="pbzFZnl1l69A7rk58jiH-1" target="WiwzU1H9DiUJzIgtU9-l-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7800" y="2046" />
+              <mxPoint x="7800" y="1892" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-9" value="13. write meta &amp;amp; update cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YIG0tlmACGBEbZd49X5f-8">
+          <mxGeometry x="0.0332" y="2" relative="1" as="geometry">
+            <mxPoint y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pbzFZnl1l69A7rk58jiH-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;DataNode&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7600" y="2034.5600000000002" width="120" height="80" as="geometry" />
         </mxCell>
@@ -4174,6 +4208,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;curved=1;" edge="1" parent="1" source="pbzFZnl1l69A7rk58jiH-1" target="WiwzU1H9DiUJzIgtU9-l-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7600" y="2080" />
+              <mxPoint x="7480" y="2080" />
+              <mxPoint x="7480" y="1892" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIG0tlmACGBEbZd49X5f-3" value="10. update CP&lt;div&gt;[v channel, positioin]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YIG0tlmACGBEbZd49X5f-2">
+          <mxGeometry x="0.0801" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oh_DWxMZmRsJi_cgEl3s-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ObjectStore&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7600" y="2205.0099999999998" width="120" height="80" as="geometry" />
         </mxCell>
@@ -4183,29 +4231,16 @@
             <mxPoint x="7965" y="2190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oh_DWxMZmRsJi_cgEl3s-3" value="write to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oh_DWxMZmRsJi_cgEl3s-2" vertex="1" connectable="0">
+        <mxCell id="oh_DWxMZmRsJi_cgEl3s-3" value="12. write to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oh_DWxMZmRsJi_cgEl3s-2" vertex="1" connectable="0">
           <mxGeometry x="0.0082" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LZMFw5GzPTGTcZ0ker4_-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="oh_DWxMZmRsJi_cgEl3s-4" target="WiwzU1H9DiUJzIgtU9-l-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="7340" y="2519" />
-              <mxPoint x="7340" y="2530" />
-              <mxPoint x="7200" y="2530" />
-              <mxPoint x="7200" y="1970" />
-              <mxPoint x="7618" y="1970" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="oh_DWxMZmRsJi_cgEl3s-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;On receive message&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;inputNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;update consume time lag &amp;amp; consumed count&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wrap &lt;i&gt;MsgPack&lt;/i&gt; into&amp;nbsp;&lt;/span&gt;&lt;i&gt;MsgStreamMsg&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;ddNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;check collection id&lt;/li&gt;&lt;li&gt;filter segment insert message&lt;/li&gt;&lt;li&gt;check msg&#39;s segment id&lt;/li&gt;&lt;ul&gt;&lt;li&gt;not belong to, skip&lt;/li&gt;&lt;li&gt;dropped, skip&lt;/li&gt;&lt;li&gt;sealed, skip&lt;/li&gt;&lt;li&gt;old msg (check via timestamp), skip&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;wrap into&amp;nbsp;FlowGraphMsg&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;writeNode&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;buffer data&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;parse data into data, pk data, timestamp data, row count, group by segment ID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;write into a segment buffer&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;update bloom filter&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;10.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;sync buffer:&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;grep segments need to sync&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;buffer is full&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;sync stale ( &amp;gt; a time gap)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;segment sealed | dropped&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;create sync task for each segment&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;serialize insert blobs&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;serialize stat blobs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;serialize delta blobs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;11.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;process insert blobs ( $s3_root_path/insert_log/${collection | partition | segment | field | allocated id&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;process stat blobs&amp;nbsp; &amp;nbsp; (&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;$s3_root_path/stats_log/${collection | partition | segment | field | allocated id&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;process delta blobs&amp;nbsp; (&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;$s3_root_path/delta_log/${collection | partition | segment | field | allocated id&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;12.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;13.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;process flush / drop (TODOs)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;update stats (num rows)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;In &lt;b&gt;ttNode&lt;/b&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;update timestamp, uses it as checkpoint&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7750" y="2151.94" width="820" height="561.51" as="geometry" />
         </mxCell>
-        <mxCell id="LZMFw5GzPTGTcZ0ker4_-2" value="update CP&lt;div&gt;[v channel, position]&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZMFw5GzPTGTcZ0ker4_-1">
-          <mxGeometry x="-0.29" y="3" relative="1" as="geometry">
-            <mxPoint y="6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oh_DWxMZmRsJi_cgEl3s-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;On receive message&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;inputNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;update consume time lag &amp;amp; consumed count&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wrap &lt;i&gt;MsgPack&lt;/i&gt; into&amp;nbsp;&lt;/span&gt;&lt;i&gt;MsgStreamMsg&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;ddNode&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;check collection id&lt;/li&gt;&lt;li&gt;filter segment insert message&lt;/li&gt;&lt;li&gt;check msg&#39;s segment id&lt;/li&gt;&lt;ul&gt;&lt;li&gt;dropped, skip&lt;/li&gt;&lt;li&gt;sealed, skip&lt;/li&gt;&lt;li&gt;old msg (check via timestamp), skip&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;wrap into&amp;nbsp;FlowGraphMsg&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In &lt;b&gt;writeNode&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;buffer data&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;parse data into data, pk data, timestamp data, row count, group by segment ID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;write into a segment buffer&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;update checkpoint (last msg position)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;sync buffer:&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;grep segments need to sync&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;buffer is full&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;sync stale ( &amp;gt; a time gap)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;segment sealed | dropped&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;create sync task for each segment&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;update stats (num rows)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;In &lt;b&gt;ttNode&lt;/b&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li&gt;update timestamp, uses it as checkpoint&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="7260" y="2049.7799999999997" width="460" height="469.61" as="geometry" />
+        <mxCell id="YIG0tlmACGBEbZd49X5f-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proxy&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;All operations entry&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5260" y="2809.36" width="270" height="167.58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
